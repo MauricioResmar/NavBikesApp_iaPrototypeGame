@@ -1,0 +1,41 @@
+@startuml
+class NavBike {
+~ int id
+~ String typeNavbik3
+~ String versionIa
+~ String color
+~ int powerForce
++ NavBike clonar()
+}
+
+
+class Main {
++ {static} void main(String[])
+}
+
+class IconNavBike {
++ void GetWelcomeInterfaz()
++ void GetIconTacticNavbike()
++ void GetIconHeavyNavbike()
++ void GetIconHackerNavBike()
++ void GetAllIconsNavBikes()
++ void PrintIconNavBike(String)
+}
+note left of IconNavBike::PrintIconNavBike(String)
+El siguiente metodo, imprime el icono según el typo de NavBike especificado por el usuario:
+end note
+
+class Datanavbik3 {
+~ Scanner scanner
+~ int numClones
++ String GetTypeNavbike()
++ String GetVersionIa()
++ String GetColorNavBike()
++ int GetNumClones()
+}
+
+
+
+
+Cloneable <|.. NavBike
+@enduml
