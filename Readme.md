@@ -6,7 +6,7 @@
 
 El siguiente código permite la creación y clonación en tiempo de ejecución de prototipos de naves espaciales tipo ASCII, denominadas NavBikes. Este enfoque resulta especialmente útil cuando se necesita crear un escuadrón o una flota de NavBikes sin consumir excesivos recursos de memoria RAM en la máquina.
 
-El patrón de diseño utilizado es el Prototipo, el cual proporciona una manera eficiente y sencilla de gestionar la creación y clonación de objetos. Al utilizar prototipos previamente creados, se evita la duplicación innecesaria de recursos y se optimiza el rendimiento del sistema.
+El patrón de diseño utilizado es el Prototipo, el cual proporciona una manera eficiente y sencilla de gestionar la creación y clonación de objetos incluyendo sus **_atributos y metodos_**. Al utilizar prototipos previamente creados, se evita la duplicación innecesaria de recursos y se optimiza el rendimiento del sistema.
 
 La capacidad de clonación en tiempo de ejecución permite generar múltiples instancias de NavBikes a partir de un prototipo base, con la flexibilidad de ajustar las propiedades de cada clon según sea necesario. Esto facilita la creación y gestión de escuadrones de naves espaciales de manera dinámica y eficiente.
 
@@ -32,7 +32,7 @@ Para hacerlo, la arquitectura del codigo fuente, implementa: el **_Patrón de Di
 
 _**Problema:**_ Uso excesivo de memoria y tiempo al crear objetos costosos en tiempo de ejecución.
 
-**_Solución:_** Copiar un objeto existente en vez de crear uno nuevo. El objeto existente actúa como un prototipo y contiene el estado del objeto que va a ser “creado”.
+**_Solución:_** Copiar un objeto existente en vez de crear uno nuevo. El objeto existente actúa como un prototipo y contiene el estado del objeto que va a ser “creado” incluyendo sus atributos y metodos.
 
 **_Consecuencias:_**
 
