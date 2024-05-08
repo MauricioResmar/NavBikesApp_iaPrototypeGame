@@ -2,10 +2,13 @@
 
 **_Version 1.1_**
 
-**_@author: Mauricio R._**
+**_@author: Mauricio Restrepo Marín._**
 
-El siguiente codigo permite tanto la creación de Prototipos de naves espaciales tipo ASCII llamadas: **_NavBikes_**, así cómo la Clonación en tiempo de ejecución, del prototipo previamente creado, 
-algo útil cuando se requiere **_Crear_** un escuadron, o una flota de NavBikes sin utilizar demasiados recursos en la maquina como memoria (Ram) de manera fácil y  a partir de un Prototypo previamente creado.
+El siguiente código permite la creación y clonación en tiempo de ejecución de prototipos de naves espaciales tipo ASCII, denominadas NavBikes. Este enfoque resulta especialmente útil cuando se necesita crear un escuadrón o una flota de NavBikes sin consumir excesivos recursos de memoria RAM en la máquina.
+
+El patrón de diseño utilizado es el Prototipo, el cual proporciona una manera eficiente y sencilla de gestionar la creación y clonación de objetos. Al utilizar prototipos previamente creados, se evita la duplicación innecesaria de recursos y se optimiza el rendimiento del sistema.
+
+La capacidad de clonación en tiempo de ejecución permite generar múltiples instancias de NavBikes a partir de un prototipo base, con la flexibilidad de ajustar las propiedades de cada clon según sea necesario. Esto facilita la creación y gestión de escuadrones de naves espaciales de manera dinámica y eficiente.
 
 ![img_4.png](src/img_4.png)
 
